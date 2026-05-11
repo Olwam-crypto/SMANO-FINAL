@@ -12,7 +12,7 @@ from web3 import Web3
 
 
 
-APP_NAME = "🌐 S.M.A.N.O"
+APP_NAME = "🌐S.M.A.N.O"
 TAGLINE = "Transparent, verifiable, and permanent supply chains for education."
 DESCRIPTION = "🚀A decentralized platform connecting donors, verified suppliers, and logistics to ensure every contribution reaches disadvantaged schools."
 LOGO_PATH = "assets/logo.png" # The app will look for an image here. If it fails, it uses the APP_NAME text.
