@@ -104,7 +104,7 @@ else:
 # ==========================================
 # PAGE 1: OVERVIEW / DASHBOARD
 # ==========================================
-if selection == "🏠Overview / Dashboard":
+if selection == "Overview / Dashboard":
     st.subheader("Platform Dashboard")
     
     with st.spinner("Fetching live network data..."):
@@ -147,7 +147,7 @@ if selection == "🏠Overview / Dashboard":
 # ==========================================
 
 
-elif selection == "💰Donation Portal":
+elif selection == "Donation Portal":
     st.subheader("Support Disadvantaged Schools")
     
     # READ: Check registration
@@ -192,7 +192,7 @@ elif selection == "💰Donation Portal":
 # ==========================================
 # PAGE 3: SUPPLIER MANAGEMENT
 # ==========================================
-elif selection == "🏬Supplier Management":
+elif selection == "Supplier Management":
     st.subheader("Supplier Registration & Certifications")
     st.write("Join our network to provide essential learning materials and food.")
     
@@ -238,7 +238,7 @@ elif selection == "🏬Supplier Management":
 # ==========================================
 # PAGE 4: LOGISTICS & TRACKING
 # ==========================================
-elif selection == "📦Logistics & Tracking":
+elif selection == "Logistics & Tracking":
     st.subheader("Track Supply Batches")
     
     batch_id_to_check = st.number_input("Enter Delivery Batch ID to Track", min_value=0, step=1)
@@ -277,7 +277,7 @@ elif selection == "📦Logistics & Tracking":
 # ==========================================
 # PAGE 5: ADMIN SETTINGS
 # ==========================================
-elif selection == "⚙️Admin Settings":
+elif selection == "Admin Settings":
     st.subheader("Administrator Controls")
     
     # Extra security check on UI layer
